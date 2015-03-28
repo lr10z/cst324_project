@@ -1,0 +1,202 @@
+/**
+ * styles.css
+ *
+ * Main stylesheet for the Weebay app.
+ *
+ * @author Dylan Gleason, dgleason8484 -at- gmail -dot- com
+ */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), url('/fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Open Sans Light';
+    src: local('Open Sans Light'), url('/fonts/OpenSans-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Monofett';
+    src: local('Monofett'), url('/fonts/Monofett.ttf');
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    padding-top: 70px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e0ebeb;
+}
+
+h1, .navbar-brand {
+    font-family: 'Monofett', cursive;
+}
+
+h1, h2, h3, a {
+    color: #197575;
+}
+
+h2, label.error, article {
+    font-family: 'Open Sans Light', sans-serif;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+    color: #197575;
+}
+
+.navbar-default {
+    border-color: #BCC7C7;
+}
+
+.navbar-brand {
+    padding-left: 25px;
+    font-size: 250%;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #479191;
+}
+
+.navbar-nav.right {
+    float:right;
+}
+
+.navbar-nav .signup {
+    padding-top: 8px;
+}
+
+.btn-success {
+    border-color: #197575;
+    background-color: #197575;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active {
+    border-color: #378181;
+    background-color: #479191
+}
+
+.btn-success:focus {
+    outline: none !important;
+}
+
+.jumbotron {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #BCC7C7;
+    background-color: #f8f8f8;
+}
+
+.container.search {
+    padding-top: 15px;
+    margin: 0 auto;
+    width: 60%;    
+}
+
+.jumbotron .list-group {
+    padding-top: 15px;
+}
+
+.list-group-item {
+    height: 40px;
+}
+
+.container.search .column {
+    padding-left: 0 !important;
+}
+
+.container.search .dropdown-toggle {
+    width: 130px;
+}
+
+.featured-item.container .jumbotron {
+    margin: 50px 25px 0 25px;
+}
+
+.featured-item.container .jumbotron h2 {
+    font-weight: bold;
+}
+
+.featured-item.container article {
+    padding-top: 20px;
+}
+
+.featured-item .item-info {
+    padding-bottom: 35px;
+}
+
+.featured-item .item-name {
+    float:left;
+}
+
+.featured-item .item-price {
+    float:right;
+}
+
+.container.auth {
+    width: 45%;
+}
+
+.container.auth a {
+    text-decoration: none !important;
+}
+
+.container.auth h1 {
+    padding-left: 20px;
+    font-size: 300%;
+}
+
+.container.auth h2 {
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.auth-form {
+    padding-top: 10px;
+}
+
+.auth-form input {
+    padding: 10px 10px;
+    margin-bottom: 25px;
+}    
+
+.auth-form button {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.auth-alternate {
+    text-align: center;
+    padding-top: 20px;
+}
+
+label.error {
+    padding-bottom: 5px;
+    display: block;
+    color: #E62E00;
+}
+
+article {
+    font-weight: bold;
+}
+
+.search label.error {
+    text-align: center;
+    visibility: hidden;
+}
+
+.list-group {
+    margin-top: -15px;
+    list-style-type: none;
+}
+
+.list-item {
+    padding-top: 2em;
+}
